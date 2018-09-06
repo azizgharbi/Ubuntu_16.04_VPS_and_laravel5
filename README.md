@@ -58,7 +58,7 @@ phpinfo();
 ~Esc + :wq to quite and save
 ```
 
-//Serve to your_ip_adresse/info.php | it's work 
+- Serve to your_ip_adresse/info.php | it's work 
 
 # Install phpmyadmin
 
@@ -95,7 +95,7 @@ FLUSH PRIVILEGES;
 
 (it's work now)
 
-# Install composer :
+# Install composer
 
 * curl -sS https://getcomposer.org/installer | php
 * sudo mv composer.phar /usr/local/bin/composer.phar
@@ -103,11 +103,11 @@ FLUSH PRIVILEGES;
 
 Run composer now
 
-#Install a laravel5 application:
+# Install Laravel
 
 make sure to clone your application in /var/www/html
 
-#Configuration
+# Configuration
 
 * sudo chgrp -R www-data /var/www/html/project
 * sudo chmod -R 775 /var/www/html/project/storage
